@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapAdditionsKitV2"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Useful additions for native iOS frameworks"
 
   # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "./LICENSE"
-  spec.license      = { :type => "MIT", :file => "../LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TapAdditionsKitV2/**/*.{h,m,swift}"
+  spec.source_files  = "TapAdditionsKitV2/TapAdditionsKitV2/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
