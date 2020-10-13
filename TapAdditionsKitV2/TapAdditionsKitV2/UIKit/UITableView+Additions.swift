@@ -5,7 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
-import func		TapSwiftFixes.ExceptionCatcher.catchException
+import TapSwiftFixes
 import class	UIKit.UITableView.UITableView
 
 /// Useful extension for UITableView
