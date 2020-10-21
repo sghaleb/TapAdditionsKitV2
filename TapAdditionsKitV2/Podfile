@@ -7,7 +7,6 @@ target 'TapAdditionsKitV2' do
 
   # Pods for TapAdditionsKitV2
   pod 'SwiftLint'
-  pod 'TapSwiftFixes/Exceptions'
-  pod 'TapSwiftFixes/Threading'
+  pod 'TapSwiftFixesV2', '~> 1.0'
 
 end

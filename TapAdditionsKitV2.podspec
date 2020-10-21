@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapAdditionsKitV2"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Useful additions for native iOS frameworks"
 
   # This description is used to generate tags and improve search results.
@@ -132,7 +132,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "SwiftLint"
-  spec.dependency "TapSwiftFixes/Exceptions"
-  spec.dependency "TapSwiftFixes/Threading"
+  spec.dependency "TapSwiftFixesV2"
 
 end

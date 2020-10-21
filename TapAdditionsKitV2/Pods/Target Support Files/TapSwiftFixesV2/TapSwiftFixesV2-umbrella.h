@@ -10,8 +10,9 @@
 #endif
 #endif
 
+#import "CoreGraphicsFixes.h"
 #import "ExceptionCatcher.h"
 
-FOUNDATION_EXPORT double TapSwiftFixesVersionNumber;
-FOUNDATION_EXPORT const unsigned char TapSwiftFixesVersionString[];
+FOUNDATION_EXPORT double TapSwiftFixesV2VersionNumber;
+FOUNDATION_EXPORT const unsigned char TapSwiftFixesV2VersionString[];
 
