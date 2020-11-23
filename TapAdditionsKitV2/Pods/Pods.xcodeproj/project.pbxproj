@@ -6,41 +6,22 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = SwiftLint;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		15EF9190BAE9990ECFCE5D118C469BBA /* CoreGraphicsFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C98AD51BF9FD0CDAF99991F4E66360 /* CoreGraphicsFixes.m */; };
-		242FCFB2B8E92FAC064CA8D1ED02CAAD /* TapSwiftFixesV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA88FB8A312A681C6905DF44D99C6E08 /* TapSwiftFixesV2-dummy.m */; };
-		54561E4B067E2FE3AF9B45CD613F7AF2 /* Pods-TapAdditionsKitV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9980B6CAE5417990CCD8172CEAF3B158 /* Pods-TapAdditionsKitV2-dummy.m */; };
-		5CE12E36BA446D16920AD53B884C9032 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0213ED638B7C1120BE8589299385E39 /* ThreadingFixes.swift */; };
-		6A32F693F532558EBC3A46BD0BA747D2 /* Pods-TapAdditionsKitV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6AD6C55F26FEAF4EE4B096DCF99861 /* Pods-TapAdditionsKitV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		751CD451B03E616FC943C92F352FF8D8 /* ExceptionCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F26CACFB031CC81C6EC8AF37703729E3 /* ExceptionCatcher.m */; };
-		7D059194E1B805C6327DEAF3EF07E78F /* CoreGraphicsFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = 777B7BD2EDE00039FAEF697EEEC1F80E /* CoreGraphicsFixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15EF9190BAE9990ECFCE5D118C469BBA /* CoreGraphicsFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 89583E965E391CC0E3BDEF29F8AA1D9A /* CoreGraphicsFixes.m */; };
+		242FCFB2B8E92FAC064CA8D1ED02CAAD /* TapSwiftFixesV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2C66A5136F4A1662793E07BCC282C /* TapSwiftFixesV2-dummy.m */; };
+		561890F16FC449B02A00EA0444743A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5CE12E36BA446D16920AD53B884C9032 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787EB246263A55AD954E3896310CF256 /* ThreadingFixes.swift */; };
+		751CD451B03E616FC943C92F352FF8D8 /* ExceptionCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B091EC3269BD5A59397B7D723900F31 /* ExceptionCatcher.m */; };
+		7D059194E1B805C6327DEAF3EF07E78F /* CoreGraphicsFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3A85E1704435852A3AF25F38AA6D00 /* CoreGraphicsFixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		818E52B7E083FA333D5E70C62C55CBCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8FA4CF12712059E48ABBE26B57DA4C87 /* ExceptionCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 09231345B6457021993003CC29574170 /* ExceptionCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9656738183B39EC3FD585E0B46AAE882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D8EE97A99AF2AD0A0CF9A32962AB0CBB /* TapSwiftFixesV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B40578F1A62F159D87E4F0B20A6B6018 /* TapSwiftFixesV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA4CF12712059E48ABBE26B57DA4C87 /* ExceptionCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D0415D54C3BB2A6F583E420235569C /* ExceptionCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CA5B4276F0BC737DDC302C0ED83C5F /* Pods-TapAdditionsKitV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6AD6C55F26FEAF4EE4B096DCF99861 /* Pods-TapAdditionsKitV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C856DFA3718BBE5AF1EFE93D9D11115E /* Pods-TapAdditionsKitV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9980B6CAE5417990CCD8172CEAF3B158 /* Pods-TapAdditionsKitV2-dummy.m */; };
+		D8EE97A99AF2AD0A0CF9A32962AB0CBB /* TapSwiftFixesV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA388FB01F872BA5F4CC6D5D857AECC /* TapSwiftFixesV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DD71AFE7D6E48D39318F595809C96EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-		C85339AA738A9CD89C3D99708775A853 /* PBXContainerItemProxy */ = {
+		BDA8BE38B3BD5E8C34CFAD726D51CC60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,35 +31,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09231345B6457021993003CC29574170 /* ExceptionCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionCatcher.h; path = Common/Source/ExceptionCatcher/ExceptionCatcher.h; sourceTree = "<group>"; };
+		08C27441BA743535DF70645C00DE75DB /* TapSwiftFixesV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapSwiftFixesV2.modulemap; sourceTree = "<group>"; };
 		19CFAED2165E30C00A5F0A17E87AAABB /* Pods-TapAdditionsKitV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapAdditionsKitV2.debug.xcconfig"; sourceTree = "<group>"; };
+		26D9D8DB2F57EC7ADAB42339AFF2B84C /* TapSwiftFixesV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixesV2-prefix.pch"; sourceTree = "<group>"; };
 		2765463B1C4256C7C5A2EE3758887A8E /* Pods-TapAdditionsKitV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapAdditionsKitV2-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36D9B943140930BDE95DDF7A5A0CC5E3 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
-		5778163A3978D03E743D6A54D3921244 /* TapSwiftFixesV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapSwiftFixesV2.modulemap; sourceTree = "<group>"; };
 		581E38577A8041E5E6650E9F25E61A8D /* Pods-TapAdditionsKitV2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapAdditionsKitV2-acknowledgements.plist"; sourceTree = "<group>"; };
+		5EA388FB01F872BA5F4CC6D5D857AECC /* TapSwiftFixesV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixesV2-umbrella.h"; sourceTree = "<group>"; };
 		6367E3E97CB6B9AADD460D4D3C49A1D9 /* Pods-TapAdditionsKitV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapAdditionsKitV2.modulemap"; sourceTree = "<group>"; };
 		6C737DE7C4AF97884F3A5AAE7AE7341D /* Pods_TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapAdditionsKitV2.framework; path = "Pods-TapAdditionsKitV2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76C98AD51BF9FD0CDAF99991F4E66360 /* CoreGraphicsFixes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicsFixes.m; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.m; sourceTree = "<group>"; };
-		777B7BD2EDE00039FAEF697EEEC1F80E /* CoreGraphicsFixes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsFixes.h; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.h; sourceTree = "<group>"; };
+		787EB246263A55AD954E3896310CF256 /* ThreadingFixes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadingFixes.swift; path = Common/Source/ThreadingFixes/ThreadingFixes.swift; sourceTree = "<group>"; };
 		7B7D0E529BC5DCA4AEBA75B5BBE87DE4 /* Pods-TapAdditionsKitV2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapAdditionsKitV2-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D9EAA1EED471F2AF96779DD393CCB73 /* TapSwiftFixesV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapSwiftFixesV2.framework; path = TapSwiftFixesV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89583E965E391CC0E3BDEF29F8AA1D9A /* CoreGraphicsFixes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicsFixes.m; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.m; sourceTree = "<group>"; };
+		8B091EC3269BD5A59397B7D723900F31 /* ExceptionCatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExceptionCatcher.m; path = Common/Source/ExceptionCatcher/ExceptionCatcher.m; sourceTree = "<group>"; };
+		98EC580AD5E74F4EE0F84882A2B3332F /* TapSwiftFixesV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixesV2.debug.xcconfig; sourceTree = "<group>"; };
 		9980B6CAE5417990CCD8172CEAF3B158 /* Pods-TapAdditionsKitV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapAdditionsKitV2-dummy.m"; sourceTree = "<group>"; };
 		9BA00E957245B6F1A819D732D0ABBB77 /* Pods-TapAdditionsKitV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapAdditionsKitV2.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA88FB8A312A681C6905DF44D99C6E08 /* TapSwiftFixesV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapSwiftFixesV2-dummy.m"; sourceTree = "<group>"; };
-		B40578F1A62F159D87E4F0B20A6B6018 /* TapSwiftFixesV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixesV2-umbrella.h"; sourceTree = "<group>"; };
-		BAE86FDFE8EE9DA49C9DA7183DF3D47D /* TapSwiftFixesV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapSwiftFixesV2-prefix.pch"; sourceTree = "<group>"; };
+		A2A2C66A5136F4A1662793E07BCC282C /* TapSwiftFixesV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapSwiftFixesV2-dummy.m"; sourceTree = "<group>"; };
+		A49A203B975FFF55ECFA13675B48F382 /* TapSwiftFixesV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixesV2.release.xcconfig; sourceTree = "<group>"; };
+		C1D0415D54C3BB2A6F583E420235569C /* ExceptionCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionCatcher.h; path = Common/Source/ExceptionCatcher/ExceptionCatcher.h; sourceTree = "<group>"; };
+		C71907F38C9862F00B55BA46C0834244 /* TapSwiftFixesV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapSwiftFixesV2-Info.plist"; sourceTree = "<group>"; };
 		CB6AD6C55F26FEAF4EE4B096DCF99861 /* Pods-TapAdditionsKitV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapAdditionsKitV2-umbrella.h"; sourceTree = "<group>"; };
-		D0213ED638B7C1120BE8589299385E39 /* ThreadingFixes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadingFixes.swift; path = Common/Source/ThreadingFixes/ThreadingFixes.swift; sourceTree = "<group>"; };
-		D4519485D6C3990CB3B90E1934A379C6 /* TapSwiftFixesV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixesV2.release.xcconfig; sourceTree = "<group>"; };
-		D535CEEF816E7AA7C6C12CFB5D6D9637 /* TapSwiftFixesV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixesV2.debug.xcconfig; sourceTree = "<group>"; };
-		E3A649B89F3184D4D07F164A07A67F54 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		E4764170196B37494211EB5E95102057 /* TapSwiftFixesV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapSwiftFixesV2-Info.plist"; sourceTree = "<group>"; };
-		F26CACFB031CC81C6EC8AF37703729E3 /* ExceptionCatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExceptionCatcher.m; path = Common/Source/ExceptionCatcher/ExceptionCatcher.m; sourceTree = "<group>"; };
+		DF3A85E1704435852A3AF25F38AA6D00 /* CoreGraphicsFixes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsFixes.h; path = Common/Source/CoreGraphicsFixes/CoreGraphicsFixes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B3EE440DD263E76546BEDB82859CC0A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561890F16FC449B02A00EA0444743A20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC487B24F786A825C2DA796EDD9B573C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,17 +74,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF840DFF7734698377FCEFB5FA8FF8B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9656738183B39EC3FD585E0B46AAE882 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0570CB870C03CF25735786D09D43666B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A0E2C403913882D321B58AC330D3FE /* TapSwiftFixesV2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1CA83D6978A8D9132C6CFCE5B768BEB1 /* Pods-TapAdditionsKitV2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,13 +101,16 @@
 			path = "Target Support Files/Pods-TapAdditionsKitV2";
 			sourceTree = "<group>";
 		};
-		4A2C30B7B393EDC3B978E3EDD6160654 /* SwiftLint */ = {
+		47A0E2C403913882D321B58AC330D3FE /* TapSwiftFixesV2 */ = {
 			isa = PBXGroup;
 			children = (
-				C213B2738A8816CEFEB360287B806753 /* Support Files */,
+				687607B4A05A0B348EBC0730768C4430 /* CoreGraphics */,
+				BE35B73634E036E0E505C9D39678A5EB /* Exceptions */,
+				CA8B045C61BC2E8CE9C6F65D2141BB61 /* Support Files */,
+				8DEA707FA81C5B8B7A19A37DB1F08B34 /* Threading */,
 			);
-			name = SwiftLint;
-			path = SwiftLint;
+			name = TapSwiftFixesV2;
+			path = TapSwiftFixesV2;
 			sourceTree = "<group>";
 		};
 		6216C5CCC05DBCF011029E8A14CC440B /* Products */ = {
@@ -132,31 +122,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68B28799B04B46C6C206EC52F3111928 /* Support Files */ = {
+		687607B4A05A0B348EBC0730768C4430 /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				5778163A3978D03E743D6A54D3921244 /* TapSwiftFixesV2.modulemap */,
-				AA88FB8A312A681C6905DF44D99C6E08 /* TapSwiftFixesV2-dummy.m */,
-				E4764170196B37494211EB5E95102057 /* TapSwiftFixesV2-Info.plist */,
-				BAE86FDFE8EE9DA49C9DA7183DF3D47D /* TapSwiftFixesV2-prefix.pch */,
-				B40578F1A62F159D87E4F0B20A6B6018 /* TapSwiftFixesV2-umbrella.h */,
-				D535CEEF816E7AA7C6C12CFB5D6D9637 /* TapSwiftFixesV2.debug.xcconfig */,
-				D4519485D6C3990CB3B90E1934A379C6 /* TapSwiftFixesV2.release.xcconfig */,
+				DF3A85E1704435852A3AF25F38AA6D00 /* CoreGraphicsFixes.h */,
+				89583E965E391CC0E3BDEF29F8AA1D9A /* CoreGraphicsFixes.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TapSwiftFixesV2";
+			name = CoreGraphics;
 			sourceTree = "<group>";
 		};
-		82A60369C66BB5205F9E9D24898FD426 /* TapSwiftFixesV2 */ = {
+		8DEA707FA81C5B8B7A19A37DB1F08B34 /* Threading */ = {
 			isa = PBXGroup;
 			children = (
-				BF1816AEF6458FF4A8FCA9FA12ECE1FB /* CoreGraphics */,
-				E464B03698098B5A1BC481AC1AA064CC /* Exceptions */,
-				68B28799B04B46C6C206EC52F3111928 /* Support Files */,
-				9C8F0CE0832B0A26485DD6B26B255EA0 /* Threading */,
+				787EB246263A55AD954E3896310CF256 /* ThreadingFixes.swift */,
 			);
-			name = TapSwiftFixesV2;
-			path = TapSwiftFixesV2;
+			name = Threading;
 			sourceTree = "<group>";
 		};
 		98D9D259CD79E5EB89515D7089500937 /* Targets Support Files */ = {
@@ -167,21 +147,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9C8F0CE0832B0A26485DD6B26B255EA0 /* Threading */ = {
+		BE35B73634E036E0E505C9D39678A5EB /* Exceptions */ = {
 			isa = PBXGroup;
 			children = (
-				D0213ED638B7C1120BE8589299385E39 /* ThreadingFixes.swift */,
+				C1D0415D54C3BB2A6F583E420235569C /* ExceptionCatcher.h */,
+				8B091EC3269BD5A59397B7D723900F31 /* ExceptionCatcher.m */,
 			);
-			name = Threading;
-			sourceTree = "<group>";
-		};
-		BF1816AEF6458FF4A8FCA9FA12ECE1FB /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				777B7BD2EDE00039FAEF697EEEC1F80E /* CoreGraphicsFixes.h */,
-				76C98AD51BF9FD0CDAF99991F4E66360 /* CoreGraphicsFixes.m */,
-			);
-			name = CoreGraphics;
+			name = Exceptions;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -192,14 +164,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C213B2738A8816CEFEB360287B806753 /* Support Files */ = {
+		CA8B045C61BC2E8CE9C6F65D2141BB61 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36D9B943140930BDE95DDF7A5A0CC5E3 /* SwiftLint.debug.xcconfig */,
-				E3A649B89F3184D4D07F164A07A67F54 /* SwiftLint.release.xcconfig */,
+				08C27441BA743535DF70645C00DE75DB /* TapSwiftFixesV2.modulemap */,
+				A2A2C66A5136F4A1662793E07BCC282C /* TapSwiftFixesV2-dummy.m */,
+				C71907F38C9862F00B55BA46C0834244 /* TapSwiftFixesV2-Info.plist */,
+				26D9D8DB2F57EC7ADAB42339AFF2B84C /* TapSwiftFixesV2-prefix.pch */,
+				5EA388FB01F872BA5F4CC6D5D857AECC /* TapSwiftFixesV2-umbrella.h */,
+				98EC580AD5E74F4EE0F84882A2B3332F /* TapSwiftFixesV2.debug.xcconfig */,
+				A49A203B975FFF55ECFA13675B48F382 /* TapSwiftFixesV2.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
+			path = "../Target Support Files/TapSwiftFixesV2";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -207,7 +184,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F152259F3C884954ACA62244E5DDF168 /* Pods */,
+				0570CB870C03CF25735786D09D43666B /* Pods */,
 				6216C5CCC05DBCF011029E8A14CC440B /* Products */,
 				98D9D259CD79E5EB89515D7089500937 /* Targets Support Files */,
 			);
@@ -221,35 +198,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E464B03698098B5A1BC481AC1AA064CC /* Exceptions */ = {
-			isa = PBXGroup;
-			children = (
-				09231345B6457021993003CC29574170 /* ExceptionCatcher.h */,
-				F26CACFB031CC81C6EC8AF37703729E3 /* ExceptionCatcher.m */,
-			);
-			name = Exceptions;
-			sourceTree = "<group>";
-		};
-		F152259F3C884954ACA62244E5DDF168 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A2C30B7B393EDC3B978E3EDD6160654 /* SwiftLint */,
-				82A60369C66BB5205F9E9D24898FD426 /* TapSwiftFixesV2 */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B3EF22880EC343573BFEF03FB053498 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A32F693F532558EBC3A46BD0BA747D2 /* Pods-TapAdditionsKitV2-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		874FAD62EE8A634032D782C6A93FA91A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,23 +211,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB58A5C15EE586DD2B0D9AC05BB30852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CA5B4276F0BC737DDC302C0ED83C5F /* Pods-TapAdditionsKitV2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7600CCEF7AB721D8D3116ED0ED5538AF /* Pods-TapAdditionsKitV2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CBBA433256252F4814380838033D28D /* Build configuration list for PBXNativeTarget "Pods-TapAdditionsKitV2" */;
+			buildConfigurationList = 546E50E69A41DE2305B7C014732FA1DB /* Build configuration list for PBXNativeTarget "Pods-TapAdditionsKitV2" */;
 			buildPhases = (
-				1B3EF22880EC343573BFEF03FB053498 /* Headers */,
-				B8CA4BB5986A43978FB4DC6A74E97BCB /* Sources */,
-				DF840DFF7734698377FCEFB5FA8FF8B6 /* Frameworks */,
-				ACF6F8FA24D84A925C11E6160CC05FA6 /* Resources */,
+				BB58A5C15EE586DD2B0D9AC05BB30852 /* Headers */,
+				AD9F44A66F86E3036B82BC9B2515208D /* Sources */,
+				B3EE440DD263E76546BEDB82859CC0A5 /* Frameworks */,
+				32C37ED0F5E441C8CEA7ABCE2FA6FC8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9713401F6F6373EB86BC0B06CC46C552 /* PBXTargetDependency */,
-				6C7C8DE1CE87966C21C4D8625263AA33 /* PBXTargetDependency */,
+				62D736250228050BDB27FFEC318872C1 /* PBXTargetDependency */,
 			);
 			name = "Pods-TapAdditionsKitV2";
 			productName = "Pods-TapAdditionsKitV2";
@@ -324,21 +282,20 @@
 			projectRoot = "";
 			targets = (
 				7600CCEF7AB721D8D3116ED0ED5538AF /* Pods-TapAdditionsKitV2 */,
-				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 				E216967D71699A6EF43A16A4B8B6D624 /* TapSwiftFixesV2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		770C5B3ADDAEA8A85ECDF0FAED5AD835 /* Resources */ = {
+		32C37ED0F5E441C8CEA7ABCE2FA6FC8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF6F8FA24D84A925C11E6160CC05FA6 /* Resources */ = {
+		770C5B3ADDAEA8A85ECDF0FAED5AD835 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,35 +316,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8CA4BB5986A43978FB4DC6A74E97BCB /* Sources */ = {
+		AD9F44A66F86E3036B82BC9B2515208D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54561E4B067E2FE3AF9B45CD613F7AF2 /* Pods-TapAdditionsKitV2-dummy.m in Sources */,
+				C856DFA3718BBE5AF1EFE93D9D11115E /* Pods-TapAdditionsKitV2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6C7C8DE1CE87966C21C4D8625263AA33 /* PBXTargetDependency */ = {
+		62D736250228050BDB27FFEC318872C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TapSwiftFixesV2;
 			target = E216967D71699A6EF43A16A4B8B6D624 /* TapSwiftFixesV2 */;
-			targetProxy = C85339AA738A9CD89C3D99708775A853 /* PBXContainerItemProxy */;
-		};
-		9713401F6F6373EB86BC0B06CC46C552 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 0DD71AFE7D6E48D39318F595809C96EA /* PBXContainerItemProxy */;
+			targetProxy = BDA8BE38B3BD5E8C34CFAD726D51CC60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2768B3282BD4450CBF3FEAFA4F3BD4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D535CEEF816E7AA7C6C12CFB5D6D9637 /* TapSwiftFixesV2.debug.xcconfig */;
+			baseConfigurationReference = 98EC580AD5E74F4EE0F84882A2B3332F /* TapSwiftFixesV2.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -420,42 +371,9 @@
 			};
 			name = Debug;
 		};
-		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
+		56F341D0B3D5F9061190214EA4DED5DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36D9B943140930BDE95DDF7A5A0CC5E3 /* SwiftLint.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3A649B89F3184D4D07F164A07A67F54 /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		63901A7768F17A384F55A1A5D8EBB986 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19CFAED2165E30C00A5F0A17E87AAABB /* Pods-TapAdditionsKitV2.debug.xcconfig */;
+			baseConfigurationReference = 9BA00E957245B6F1A819D732D0ABBB77 /* Pods-TapAdditionsKitV2.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -485,14 +403,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		69FCA7FBC29EDF96C28D3A7834E26316 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4519485D6C3990CB3B90E1934A379C6 /* TapSwiftFixesV2.release.xcconfig */;
+			baseConfigurationReference = A49A203B975FFF55ECFA13675B48F382 /* TapSwiftFixesV2.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,9 +569,9 @@
 			};
 			name = Debug;
 		};
-		BFF6CDEB45AC3C0B753823C6E608BCA0 /* Release */ = {
+		BE6672572BB2737B22C8BC8DD285A73F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BA00E957245B6F1A819D732D0ABBB77 /* Pods-TapAdditionsKitV2.release.xcconfig */;
+			baseConfigurationReference = 19CFAED2165E30C00A5F0A17E87AAABB /* Pods-TapAdditionsKitV2.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -682,24 +601,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CBBA433256252F4814380838033D28D /* Build configuration list for PBXNativeTarget "Pods-TapAdditionsKitV2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63901A7768F17A384F55A1A5D8EBB986 /* Debug */,
-				BFF6CDEB45AC3C0B753823C6E608BCA0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -709,20 +618,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		546E50E69A41DE2305B7C014732FA1DB /* Build configuration list for PBXNativeTarget "Pods-TapAdditionsKitV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6672572BB2737B22C8BC8DD285A73F /* Debug */,
+				56F341D0B3D5F9061190214EA4DED5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5A666059D8FAC495D55F63D6EBDAD6E /* Build configuration list for PBXNativeTarget "TapSwiftFixesV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2768B3282BD4450CBF3FEAFA4F3BD4BA /* Debug */,
 				69FCA7FBC29EDF96C28D3A7834E26316 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */,
-				55DD740115BE746C8DBB7753806D85D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
