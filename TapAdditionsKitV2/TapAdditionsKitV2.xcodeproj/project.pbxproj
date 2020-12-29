@@ -37,7 +37,6 @@
 		E8CC36702519D0AE0067088C /* KeyframeAnimationOptions+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36232519D0AE0067088C /* KeyframeAnimationOptions+Additions.swift */; };
 		E8CC36712519D0AE0067088C /* AnimationOptions+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36242519D0AE0067088C /* AnimationOptions+Additions.swift */; };
 		E8CC36722519D0AE0067088C /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36252519D0AE0067088C /* UIColor+Additions.swift */; };
-		E8CC36732519D0AE0067088C /* UIWebView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36262519D0AE0067088C /* UIWebView+Additions.swift */; };
 		E8CC36742519D0AE0067088C /* UIResponder+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36272519D0AE0067088C /* UIResponder+Additions.swift */; };
 		E8CC36752519D0AE0067088C /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36282519D0AE0067088C /* UIImageView+Additions.swift */; };
 		E8CC36762519D0AE0067088C /* UIDevice+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CC36292519D0AE0067088C /* UIDevice+Additions.swift */; };
@@ -117,7 +116,6 @@
 		E8CC36232519D0AE0067088C /* KeyframeAnimationOptions+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyframeAnimationOptions+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36242519D0AE0067088C /* AnimationOptions+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimationOptions+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36252519D0AE0067088C /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
-		E8CC36262519D0AE0067088C /* UIWebView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36272519D0AE0067088C /* UIResponder+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36282519D0AE0067088C /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 		E8CC36292519D0AE0067088C /* UIDevice+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Additions.swift"; sourceTree = "<group>"; };
@@ -269,7 +267,6 @@
 				E8CC36202519D0AE0067088C /* UIViewController+Additions.swift */,
 				E8CC36212519D0AE0067088C /* UIView */,
 				E8CC36252519D0AE0067088C /* UIColor+Additions.swift */,
-				E8CC36262519D0AE0067088C /* UIWebView+Additions.swift */,
 				E8CC36272519D0AE0067088C /* UIResponder+Additions.swift */,
 				E8CC36282519D0AE0067088C /* UIImageView+Additions.swift */,
 				E8CC36292519D0AE0067088C /* UIDevice+Additions.swift */,
@@ -540,7 +537,6 @@
 				E8CC365F2519D0AE0067088C /* URLSessionDataTaskResult.swift in Sources */,
 				E8CC369C2519D0AE0067088C /* KeyedDecodingContainer+Additions.swift in Sources */,
 				E8CC367F2519D0AE0067088C /* UICollectionView+Additions.swift in Sources */,
-				E8CC36732519D0AE0067088C /* UIWebView+Additions.swift in Sources */,
 				E8CC36772519D0AE0067088C /* UIButton+Additions.swift in Sources */,
 				E8CC36982519D0AE0067088C /* CustomStringConvertible+Additions.swift in Sources */,
 				E8CC367B2519D0AE0067088C /* UIScrollView+Additions.swift in Sources */,
