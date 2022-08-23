@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TapAdditionsKitV2"
+  spec.name         = "TapAdditionsKitV2X"
   spec.version      = "0.0.8"
   spec.summary      = "Useful additions for native iOS frameworks"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "Useful additions for native iOS frameworks. This avoids repeatitive code snippets, increase robustness and saves a lot of time!"
 
-  spec.homepage     = "https://github.com/Tap-Payments/TapAdditionsKitV2"
+  spec.homepage     = "https://github.com/sghaleb/TapAdditionsKitV2"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "O Rabie" => "o.rabie@tap.company" }
+  spec.author             = { "Saleh Ghaleb" => "saleh.ghaleb@gmail.com" }
   # Or just: spec.author    = "O Rabie"
   # spec.authors            = { "O Rabie" => "o.rabie@tap.company" }
   # spec.social_media_url   = "https://twitter.com/O Rabie"
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "12.0"
   spec.swift_versions = ['4.0', '4.2', '5.0']
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +78,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Tap-Payments/TapAdditionsKitV2.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/sghaleb/TapAdditionsKitV2.git", :tag => 
+"#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
